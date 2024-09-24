@@ -101,3 +101,22 @@ ul li.completed{
 #btn2:hover{
     background-color: #9c0303;
 }
+
+@media only screen and (max-width: 455px){
+    body {
+        font-size: 14px;
+      }
+      .container {
+        width: 100%;
+        padding: 10px;
+      }
+      #btn1, #btn2 {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+      #input-text {
+        font-size: 12px;  
+        padding: 10px;    
+        width: 100%;      
+    }
+}
